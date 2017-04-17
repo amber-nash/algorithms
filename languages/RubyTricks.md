@@ -30,21 +30,24 @@ Example of triple comparisons utilizing .zip method:
 ```
 # Data-sets
 
-Stack:
+- Stack:
 ```ruby
 stack = []
 stack << 2 # push 2 => stack = [2]
 stack << 3 # push 3 => stack = [2, 3]
 stack.pop  # pop => 3, stack = [2]
-Queue:
-
+```
+- Queue:
+```ruby
 # we have a Queue class
 queue = Queue.new
 queue << 2 # push 2 => queue = [2]
 queue << 3 # push 3 => queue = [2, 3] (just a representation, it will be an object though)
 queue.pop # pop 2
-Linked List:
+```
 
+- Linked List:
+```ruby
 # A very simple representation
 class Node
   attr_accessor :value, :next_node
@@ -73,14 +76,18 @@ end
 ll = LinkedList.new
 ll.add(10)
 ll.add(20)
-Maps:
+```
 
+- Maps:
+```ruby
 # Hash incase of ruby
 a = {} (or a = Hash.new)
 a['one'] = 1 # a = {"one"=>1}
 a['two'] = 2 # a = {"one"=>1, "two"=>2}
-Set:
+```
 
+- Set:
+```ruby
 # we have a Set class
 require 'set'
 s = Set.new         # <Set: {}>
@@ -88,6 +95,5 @@ s.add(1)            # <Set: {1}>
 s.add(2)            # <Set: {1, 2}>
 s.add(1)            # <Set: {1, 2}>
 s.instance_of?(Set) # true
-
-#examples found on stackoverflow by divyum
 ```
+examples found on [stackoverflow] (http://stackoverflow.com/questions/5006395/does-ruby-have-containers-like-stacks-queues-linked-lists-maps-or-sets) by divyum 
