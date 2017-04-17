@@ -96,4 +96,4 @@ s.add(2)            # <Set: {1, 2}>
 s.add(1)            # <Set: {1, 2}>
 s.instance_of?(Set) # true
 ```
-examples found on [stackoverflow] (http://stackoverflow.com/questions/5006395/does-ruby-have-containers-like-stacks-queues-linked-lists-maps-or-sets) by divyum 
+examples found on [stackoverflow](http://stackoverflow.com/questions/5006395/does-ruby-have-containers-like-stacks-queues-linked-lists-maps-or-sets) by divyum 
