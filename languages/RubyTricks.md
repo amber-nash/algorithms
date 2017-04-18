@@ -1,4 +1,18 @@
 #Built-in methods
+- reverse_each:
+Builds a temporary array and traverses that array in reverse order.
+If no block is given, an enumerator is returned instead.
+
+```ruby
+(1..3).reverse_each { |v| p v }
+
+#produces:
+
+3
+2
+1
+```
+
 - Zip method: combines collections. Ex:
 
 ```ruby
